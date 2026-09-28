@@ -1,0 +1,163 @@
+// ============================================
+// COLOUR SYSTEM
+// ============================================
+
+// Primary Colors
+$primary-bg: #0a0e27;
+$primary-surface: #111829;
+$secondary-bg: #1a1f3a;
+$tertiary-bg: #2d3142;
+
+// Accent
+$accent-primary: #e63946;
+$accent-secondary: #f77f88;
+$accent-light: #ff9aa2;
+
+// Text Colors
+$text-primary: #f8f9fa;
+$text-secondary: #cbd5e0;
+$text-muted: #9ca3af;
+$text-disabled: #6b7280;
+
+// Surfaces
+$surface-primary: #111829;
+$surface-secondary: #1a1f3a;
+$surface-tertiary: #2d3142;
+$surface-hover: #3d4251;
+$surface-active: #4a5568;
+
+// Borders
+$border-color: #2d3142;
+$border-light: #3d4251;
+$border-accent: $accent-primary;
+
+// Semantic Colors
+$success: #10b981;
+$warning: #f59e0b;
+$error: #ef4444;
+$info: #3b82f6;
+
+// Gradients
+$gradient-primary: linear-gradient(135deg, $accent-primary 0%, $accent-secondary 100%);
+$gradient-dark: linear-gradient(135deg, $primary-bg 0%, $secondary-bg 100%);
+$gradient-accent: linear-gradient(135deg, $accent-primary 0%, $accent-light 100%);
+
+// ============================================
+// TYPOGRAPHY SYSTEM
+// ============================================
+
+// Font Family
+$font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-mono: 'Courier New', monospace;
+
+// Font Weights
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+
+// Desktop Font Sizes
+$fs-h1-desktop: 4rem; // 64px
+$fs-h2-desktop: 3rem; // 48px
+$fs-h3-desktop: 2.25rem; // 36px
+$fs-h4-desktop: 1.875rem; // 30px
+$fs-subtitle-desktop: 1.25rem; // 20px
+$fs-body-desktop: 1rem; // 16px
+$fs-body-sm-desktop: 0.875rem; // 14px
+$fs-body-xs-desktop: 0.75rem; // 12px
+
+// Tablet Font Sizes
+$fs-h1-tablet: 3rem;
+$fs-h2-tablet: 2.25rem;
+$fs-h3-tablet: 1.875rem;
+$fs-h4-tablet: 1.5rem;
+$fs-subtitle-tablet: 1.125rem;
+$fs-body-tablet: 0.95rem;
+$fs-body-sm-tablet: 0.8rem;
+
+// Mobile Font Sizes
+$fs-h1-mobile: 2rem;
+$fs-h2-mobile: 1.5rem;
+$fs-h3-mobile: 1.25rem;
+$fs-h4-mobile: 1.125rem;
+$fs-subtitle-mobile: 1rem;
+$fs-body-mobile: 0.9rem;
+$fs-body-sm-mobile: 0.75rem;
+
+// ============================================
+// SPACING SYSTEM
+// ============================================
+
+$space-0: 0;
+$space-1: 0.25rem; // 4px
+$space-2: 0.5rem; // 8px
+$space-3: 0.75rem; // 12px
+$space-4: 1rem; // 16px
+$space-6: 1.5rem; // 24px
+$space-8: 2rem; // 32px
+$space-12: 3rem; // 48px
+$space-16: 4rem; // 64px
+$space-20: 5rem; // 80px
+$space-24: 6rem; // 96px
+
+// ============================================
+// BREAKPOINTS
+// ============================================
+
+$breakpoint-mobile-xs: 320px;
+$breakpoint-mobile-sm: 360px;
+$breakpoint-mobile-md: 375px;
+$breakpoint-mobile-lg: 390px;
+$breakpoint-mobile-xl: 414px;
+$breakpoint-mobile-2xl: 430px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-lg: 1440px;
+$breakpoint-desktop-xl: 1920px;
+
+// ============================================
+// SHADOWS
+// ============================================
+
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-base: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.04);
+$shadow-accent: 0 10px 30px rgba($accent-primary, 0.3);
+
+// ============================================
+// BORDER RADIUS
+// ============================================
+
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 16px;
+$radius-2xl: 24px;
+$radius-full: 9999px;
+
+// ============================================
+// TRANSITIONS
+// ============================================
+
+$transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-slower: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// ============================================
+// Z-INDEX SCALE
+// ============================================
+
+$z-hide: -1;
+$z-base: 0;
+$z-dropdown: 100;
+$z-sticky: 200;
+$z-fixed: 300;
+$z-modal-backdrop: 400;
+$z-modal: 500;
+$z-popover: 600;
+$z-tooltip: 700;
