@@ -1,0 +1,4 @@
+import { Component } from '@angular/core';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+@Component({selector:'app-page',standalone:true,imports:[RouterLink],template:`<section class="hero"><div class="container"><h1>{{ title }}</h1><p>Corporate Events. Professionally Managed.</p></div></section><section class="container content"><p>Content coming soon.</p><a routerLink="/contact" class="button">Get in touch</a></section>`,styles:[`.hero{background:#172033;color:#fff;padding:6rem 0}.hero h1{font-size:clamp(2rem,5vw,4rem);margin:0 0 1rem}.hero p{font-size:1.25rem}.content{padding-top:4rem;padding-bottom:4rem;min-height:350px}.button{display:inline-block;background:#e04b32;color:#fff;padding:.8rem 1.4rem;border-radius:4px}`]})
+export class PageComponent { title=''; constructor(route:ActivatedRoute){this.title=route.snapshot.data['title'] as string;}}
